@@ -39,4 +39,8 @@
 	$result = diff(1,1);
 	echo $result;
 
+	function org_echo($val){
+		
+	}
+
 ?>
