@@ -11,4 +11,13 @@
 
 	echo $result;
 
+	functon diff($num1,$num2){
+		$result = $num1 - $num2;
+		return $result;
+
+	}
+
+	$result = diff(1,1);
+	echo $result;
+
 ?>
