@@ -40,7 +40,17 @@
 	echo $result;
 
 	function org_echo($val){
-		
+		//org_echo を追加
+	}
+
+	function org_var_dump($val){
+
+		if(DEBUG){
+			echo '<pre>';
+			var_dump($val);
+			echo '<pre>';
+		}
+
 	}
 
 ?>
