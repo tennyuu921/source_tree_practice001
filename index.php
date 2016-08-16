@@ -40,7 +40,7 @@
 	echo $result;
 
 	function org_echo($val){
-		
+		//org_echo を追加
 	}
 
 ?>
